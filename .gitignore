@@ -39,3 +39,10 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 config.bat
+
+# Environment variables and local secrets
+!.env.example
+!.env.sample
+!.env.template
+
+# Local editor and workspace configuration
